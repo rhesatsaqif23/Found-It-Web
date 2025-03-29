@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body class="login-body">
+    <div class="login-wrapper">
+        <img src="../assets/logo_round.svg" alt="Found It Logo" class="logo_round">
+
+        <section class="login-container">
+            <div class="login-left">
+                <img src="../assets/logo_text_blue.webp" alt="Found It Logo" class="logo">
+                <img src="../assets/register.webp" alt="Ilustrasi Login" class="illustration">
+            </div>
+            <div class="login-right">
+                <h2 class="login-title">Login</h2>
+                <form class="login-form">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <div class="input-field">
+                            <img src="../assets/ic_email.svg" alt="Email Icon" class="input-icon">
+                            <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <div class="input-field">
+                            <img src="../assets/ic_lock.svg" alt="Password Icon" class="input-icon">
+                            <input type="password" id="password" name="password" placeholder="Masukkan password"
+                                required>
+                            <img src="../assets/ic_eye_closed.svg" alt="Show Password" class="toggle-password">
+                        </div>
+                    </div>
+                    <div class="login-options">
+                        <label class="remember-me">
+                            <input type="checkbox" name="remember">
+                            Ingat saya
+                        </label>
+                        <a href="#" class="forgot-password">Lupa Password?</a>
+                    </div>
+                    <button type="submit" class="btn-login"><a href="home.html">Masuk</a></button>
+                    <div class="separator">
+                        <span>atau</span>
+                    </div>
+                    <button class="btn-google">
+                        <img src="../assets/ic_google.svg" alt="Google Logo">
+                        Masuk dengan Google
+                    </button>
+                    <p class="register-text desktop">Belum punya akun? <a href="#">Daftar</a></p>
+                </form>
+            </div>
+        </section>
+
+        <p class="register-text mobile">Belum punya akun? <a href="#">Daftar</a></p>
+    </div>
+</body>
+
+</html>
